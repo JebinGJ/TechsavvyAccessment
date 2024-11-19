@@ -1,0 +1,19 @@
+.header-container {
+    width: calc(100% - 58px);
+    height: 50px;
+    top: 0;
+    right: 0;
+    z-index: 99;
+    margin-left: 58px;
+}
+
+.appBarTransparent {
+    background-color: unset !important;
+}
+
+.appBarHeader {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
