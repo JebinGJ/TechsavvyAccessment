@@ -60,7 +60,7 @@ export const Login = () => {
     return (
         <Box className={`${style.loginBackground} flexCenterCenter`} flexDirection={'column'} gap={5}>
             <Box>
-                {/* <img src={"/images/logo.png"} alt="logo" /> */}
+                <img src={"/images/logo.png"} alt="logo" />
             </Box>
             <Box p={.5} borderRadius={2} bgcolor={'#fff'}>
                 <Box className='flexCenterCenter'
