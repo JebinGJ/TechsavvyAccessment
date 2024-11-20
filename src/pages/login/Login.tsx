@@ -81,7 +81,7 @@ export const Login = () => {
                                     onChange={formik.handleChange}
                                     sx={{
                                         '& fieldset': { border: 'none' },
-                                        '& input': { color: 'text.primary' },
+                                        '& input': { color: '#000' },
                                     }}
                                     error={formik.touched.email && !!formik.errors.email}
                                     slotProps={{
@@ -108,7 +108,7 @@ export const Login = () => {
                                     type="password"
                                     sx={{
                                         '& fieldset': { border: 'none' },
-                                        '& input': { color: 'text.primary' },
+                                        '& input': { color: '#000' },
                                     }}
                                     slotProps={{
                                         input: {
@@ -137,7 +137,7 @@ export const Login = () => {
                                 }
                             }} control={<Checkbox size='small' sx={{ padding: 0 }} checked={formik.values.isLoggedInHere} onClick={formik.handleChange} name='isLoggedInHere' />} label='Remember Me' />
                         </Box>
-                        <LoadingButton loading={loading} onClick={() => formik.handleSubmit()} sx={{ p: 1, backgroundColor: 'rgba(89, 50, 234, 1)' }} variant="contained">
+                        <LoadingButton loading={loading} onClick={() => formik.handleSubmit()} sx={{ p: 1, backgroundColor: 'rgba(89, 50, 234, 1)', color: '#fff' }} variant="contained">
                             SIGN IN
                         </LoadingButton>
                     </Box>
